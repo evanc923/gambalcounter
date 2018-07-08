@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		75C7D8F220F1DCEB0023BEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7D8F120F1DCEB0023BEC7 /* AppDelegate.swift */; };
-		75C7D8F420F1DCEB0023BEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7D8F320F1DCEB0023BEC7 /* ViewController.swift */; };
 		75C7D8F720F1DCEB0023BEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C7D8F520F1DCEB0023BEC7 /* Main.storyboard */; };
 		75C7D8FA20F1DCEB0023BEC7 /* gambalcounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75C7D8F820F1DCEB0023BEC7 /* gambalcounter.xcdatamodeld */; };
 		75C7D8FC20F1DCEC0023BEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C7D8FB20F1DCEC0023BEC7 /* Assets.xcassets */; };
 		75C7D8FF20F1DCEC0023BEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C7D8FD20F1DCEC0023BEC7 /* LaunchScreen.storyboard */; };
 		75C7D90A20F1DCEC0023BEC7 /* gambalcounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7D90920F1DCEC0023BEC7 /* gambalcounterTests.swift */; };
 		75C7D91520F1DCEC0023BEC7 /* gambalcounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7D91420F1DCEC0023BEC7 /* gambalcounterUITests.swift */; };
+		F99FF53E20F211C40034BB2A /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99FF53D20F211C40034BB2A /* PlayerTableViewController.swift */; };
+		F99FF54020F212090034BB2A /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99FF53F20F212090034BB2A /* MainPageViewController.swift */; };
+		F99FF54420F213080034BB2A /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99FF54320F213080034BB2A /* AddingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		75C7D8EE20F1DCEB0023BEC7 /* gambalcounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gambalcounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C7D8F120F1DCEB0023BEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75C7D8F320F1DCEB0023BEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75C7D8F620F1DCEB0023BEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75C7D8F920F1DCEB0023BEC7 /* gambalcounter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gambalcounter.xcdatamodel; sourceTree = "<group>"; };
 		75C7D8FB20F1DCEC0023BEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		75C7D91020F1DCEC0023BEC7 /* gambalcounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gambalcounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C7D91420F1DCEC0023BEC7 /* gambalcounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gambalcounterUITests.swift; sourceTree = "<group>"; };
 		75C7D91620F1DCEC0023BEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99FF53D20F211C40034BB2A /* PlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		F99FF53F20F212090034BB2A /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		F99FF54320F213080034BB2A /* AddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				75C7D8F120F1DCEB0023BEC7 /* AppDelegate.swift */,
-				75C7D8F320F1DCEB0023BEC7 /* ViewController.swift */,
+				F99FF54320F213080034BB2A /* AddingViewController.swift */,
 				75C7D8F520F1DCEB0023BEC7 /* Main.storyboard */,
+				F99FF53F20F212090034BB2A /* MainPageViewController.swift */,
+				F99FF53D20F211C40034BB2A /* PlayerTableViewController.swift */,
 				75C7D8FB20F1DCEC0023BEC7 /* Assets.xcassets */,
 				75C7D8FD20F1DCEC0023BEC7 /* LaunchScreen.storyboard */,
 				75C7D90020F1DCEC0023BEC7 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75C7D8F420F1DCEB0023BEC7 /* ViewController.swift in Sources */,
+				F99FF54020F212090034BB2A /* MainPageViewController.swift in Sources */,
 				75C7D8F220F1DCEB0023BEC7 /* AppDelegate.swift in Sources */,
+				F99FF54420F213080034BB2A /* AddingViewController.swift in Sources */,
+				F99FF53E20F211C40034BB2A /* PlayerTableViewController.swift in Sources */,
 				75C7D8FA20F1DCEB0023BEC7 /* gambalcounter.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
